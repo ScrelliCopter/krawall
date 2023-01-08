@@ -13,7 +13,7 @@ find_library(
 find_program(
 	GBAFIX_EXECUTABLE
 	gbafix
-	PATHS $ENV{DEVKITARM}/bin
+	PATHS $ENV{DEVKITPRO}/tools/bin $ENV{DEVKITARM}/bin
 )
 
 set( GBA_LIBRARIES ${GBA_LIBRARY} )
